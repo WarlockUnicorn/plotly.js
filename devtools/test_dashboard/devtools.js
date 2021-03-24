@@ -67,6 +67,17 @@ var Tabs = {
         });
     },
 
+    // Plot a local mock by name (without .json) to the default or specified container
+    plotLocalMock: function(mockName, id) {
+        var mockURL = mockName + '.json';
+
+        d3Json(mockURL, function(err, fig) {
+            Plotly.newPlot(Tabs.fresh(id), fig);
+
+            console.warn('Plotting:', mockURL);
+        });
+    },
+
     getMock: function(mockName, callback) {
         var mockURL = '/test/image/mocks/' + mockName + '.json';
 
