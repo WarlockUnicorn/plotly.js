@@ -1,0 +1,72 @@
+{
+    "data": [
+        {
+            "x": [
+                1,
+                1e1,
+                1e2,
+                1e3,
+                1e4,
+                1e5,
+                1e6,
+                1e7,
+                1e8
+            ],
+            "y": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        }
+    ],
+    "layout": {
+        "title": {
+            "text":"<b>Testing...</b>",
+            "font": {
+                "color":"orange",
+                "size": 24
+            }
+        },
+        "xaxis": {
+            "type":"log",
+            "tickfont": {
+                "color": "black",
+                "size": 14
+            },
+            "showexponent": "All",
+            "showticklabels": true,
+            "title": {
+                "text": "X-AXIS",
+                "font": {
+                    "color": "black",
+                    "size": 18
+                }
+            },
+            "tickangle": 0,
+            "exponentformat": "power"
+        },
+        "yaxis": {
+            "tickfont": {
+                "color": "black",
+                "size": 14
+            },
+            "showexponent": "All",
+            "showticklabels": true,
+            "title": {
+                "text": "Y-AXIS",
+                "font": {
+                    "color": "black",
+                    "size": 18
+                }
+            },
+            "tickangle": 0,
+            "exponentformat": "power"
+        }
+    }
+}
